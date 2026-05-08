@@ -1,0 +1,24 @@
+#Files to ignore in git repository
+
+./*.tfstate
+*.tfstate.*
+.terraform/
+*.log
+crash.log
+
+# Ignore .tfvars files which may contain sensitive information
+*.tfvars
+*.tfvars.json
+
+#sensitive files
+*.pem
+*.key
+
+#Terraform Lock File
+.terraform.lock.hcl
+
+#VScode
+.vscode/
+
+#logs
+*.log
